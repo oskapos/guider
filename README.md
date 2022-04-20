@@ -25,6 +25,11 @@ $ npm install
 $ npm start
 ```
 
+## Demo
+
+https://guideros.netlify.app/
+login credentials: email: test@test.com password: testers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
