@@ -55,17 +55,15 @@ const App = () => {
       <Router>
         <MainNavigation />
         <main>
-          <Routes>
-            <Suspense
-              fallback={
-                <div className="center">
-                  <LoadingSpinner />
-                </div>
-              }
-            >
-              {routes}
-            </Suspense>
-          </Routes>
+          <Suspense
+            fallback={
+              <div className="center">
+                <LoadingSpinner />
+              </div>
+            }
+          >
+            <Routes>{routes}</Routes>
+          </Suspense>
         </main>
       </Router>
     </AuthContext.Provider>
